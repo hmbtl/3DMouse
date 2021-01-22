@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#2ECCFA"
+    android:layout_gravity="center"
+    
+    android:weightSum="10"
+    >
+    
+    
+    
+    <Button style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/wifibutton"
+        android:text="@string/wifibutton"
+        android:drawableLeft="@drawable/wifi2"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        />
+    
+    
+    <LinearLayout style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="7"
+        >
+         
+        <EditText
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/ipaddress"
+            android:inputType="text"
+            android:padding="5dp"
+            android:gravity="center"
+            android:hint="@string/iptext"
+            android:selectAllOnFocus="true"
+            android:background="#424242"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            ></EditText>
+        
+
+        
+    </LinearLayout>
+    
+    <Button style="@style/BlackButton"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.7"
+             android:text="@string/connectbutton"
+             android:id="@+id/connectButton"
+             android:gravity="center"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="10dp"
+             android:textSize="17sp"
+             android:textColor="#FFFFFF"
+             android:padding="7dp"
+             />
+    
+    <LinearLayout style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_weight="4.8"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+        
+        
+         
+    </LinearLayout>
+    
+     
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:weightSum="2" 
+        >
+        
+     <ImageButton style="@style/DefaultButton"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:id="@+id/settingsbutton"
+        android:src="@drawable/settings2"
+        android:contentDescription="@string/settingsbutton"
+        
+        />
+    
+     <ImageButton style="@style/DefaultButton"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/helpbutton"
+        android:src="@drawable/help2"
+        android:contentDescription="@string/helpbutton"
+        />
+        
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>

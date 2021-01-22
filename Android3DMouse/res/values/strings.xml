@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android 3D Mouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wifibutton">Wifi</string>
+    <string name="btbutton">Bluetooth</string>
+    <string name="CNbutton">Cellular</string>
+    <string name="helpbutton">Help</string>
+    <string name="settingsbutton">Settings</string>
+    <string name="iptext">ip-address</string>
+    <string name="porttext">port</string>
+    <string name="userText"> Email or User</string>
+    <string name="passwordText"> Password</string>
+    <string name="scanbutton">Scan for devices</string>
+    <string name="loginbutton">Log in</string>
+    <string name="connectbutton">Connect</string>
+    <string name="mouse2dText">2D Mouse</string>
+    <string name="toast_invalidIP">Invalid Ip-Address</string>
+
+    
+
+</resources>

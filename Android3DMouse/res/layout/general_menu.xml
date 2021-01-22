@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:splitMotionEvents="false"
+    android:background="#2ECCFA"
+    android:layout_gravity="center"
+    android:weightSum="7"
+    >
+    <Button style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/wifibutton"
+        android:text="@string/wifibutton"
+        android:drawableLeft="@drawable/wifi2"
+        android:textSize="50sp"
+        android:textStyle="bold"  
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <Button style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/btbutton"
+        android:drawableLeft="@drawable/bluetooth2"
+        android:text="@string/btbutton" 
+        android:textSize="46sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        />
+    
+    
+     <Button style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/CNbutton"
+        android:text="@string/CNbutton"
+        android:drawableLeft="@drawable/celullar"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        />
+     
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:weightSum="2" 
+        >
+        
+     <ImageButton style="@style/DefaultButton"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:id="@+id/settingsbutton"
+        android:src="@drawable/settings2"
+        android:contentDescription="@string/settingsbutton"
+        
+        />
+    
+     <ImageButton style="@style/DefaultButton"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/helpbutton"
+        android:src="@drawable/help2"
+        android:contentDescription="@string/helpbutton"
+        />
+        
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>

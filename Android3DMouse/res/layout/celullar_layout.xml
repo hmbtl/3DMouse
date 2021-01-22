@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#2ECCFA"
+    android:layout_gravity="center"
+    
+    >
+      
+      <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        >
+    
+    
+    <Button style="@style/DefaultButton"
+        android:layout_height="110dp"
+        android:layout_width="match_parent"
+        android:id="@+id/CNbutton"
+        android:text="@string/CNbutton"
+        android:drawableLeft="@drawable/celullar"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        />
+    
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:weightSum="5"
+        >
+    
+    <LinearLayout style="@style/DefaultButton"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="top|right"
+        >
+        
+        <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:weightSum="5"
+        >
+         
+       
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:id="@+id/userField"
+            android:hint="@string/userText"
+            android:inputType="text"
+            android:padding="5dp"
+            android:background="#424242"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            ></EditText>
+        
+       </LinearLayout> 
+       
+       <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:weightSum="5"
+        >
+         
+        
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/passwordText"
+            android:gravity="left"
+            android:id="@+id/passwordField"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:background="#424242"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            ></EditText>
+        
+       </LinearLayout>
+      </LinearLayout> 
+      
+       
+         <Button style="@style/BlackButton"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="@string/loginbutton"
+             android:gravity="center"
+             android:id="@+id/loginButton"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="10dp"
+             android:textSize="17sp"
+             android:textColor="#FFFFFF"
+             android:padding="10dp"
+             />
+    
+    </LinearLayout>
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:weightSum="4"
+        >
+    
+    <LinearLayout style="@style/DefaultButton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+             
+    </LinearLayout>
+    
+     
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:weightSum="2" 
+        >
+        
+     <ImageButton style="@style/DefaultButton"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:id="@+id/settingsbutton"
+        android:src="@drawable/settings2"
+        android:contentDescription="@string/settingsbutton"
+        
+        />
+    
+     <ImageButton style="@style/DefaultButton"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/helpbutton"
+        android:src="@drawable/help2"
+        android:contentDescription="@string/helpbutton"
+        />
+        
+        
+    </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
